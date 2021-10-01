@@ -3,15 +3,55 @@ body{
     padding: 0;
 }
 .commun{
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     height: 40vh;
-    background-color: red;
+    background-color: lightsalmon;
+}
+
+#commun{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+    width: 20em;
+    height: 35vh;
+    background-color: green;
 }
 
 #box1{
-    width: 100px;
-    height: 20vh;
+    margin: 20px 20px;
+    width: 20em;
+    height: 28vh;
     background-color: royalblue;
+}
+
+#box2{
+    margin: 20px 20px;
+    width: 20em;
+    height: 28vh;
+    background-color: lightgreen;
+}
+
+#box3{
+    margin: 20px 20px;
+    width: 20em;
+    height: 28vh;
+    background-color: green;
+}
+
+#title{
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .perso{
