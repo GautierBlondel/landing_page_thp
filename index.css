@@ -1,0 +1,8 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerLeft__logo {
+    width: 120px;
+}
