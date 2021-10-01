@@ -32,10 +32,57 @@ header > a {
     justify-content: space-between;
 }
 
-#section1 {
-    height: 10vh;
-    background-color: aquamarine;
+#trombi {
+    background-color: rgba(2, 2, 10, 0.787);
+    padding: 10vh 1vh;
 }
+
+#trombi > h1 {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 5vh;
+    margin: 10vh 0;
+}
+
+#trombi > main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+}
+
+.trombiCard {
+    background-color: rgba(214, 197, 181, 0.76);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 2vh 0;
+    padding: 2vh;
+    min-width: 300px;
+    border-radius: 20px;
+}
+
+.trombiCard > h1 {
+    color: rgba(20, 20, 20, 0.897);
+    font-size: 4vh;
+}
+
+.trombiCard > img {
+    width: 200px;
+    margin: 20px;
+}
+
+.trombiCard div {
+    margin-bottom: 10px;
+}
+
+.trombiCard > p {
+    font-size: 2vh;
+    color: rgba(44, 43, 43, 0.897);
+    font-style: italic;
+}
+
 
 footer {
     height: 10vh;
