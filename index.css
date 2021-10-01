@@ -41,3 +41,55 @@ footer {
     height: 10vh;
     background-color: rgb(214, 80, 62);
 }
+
+#section2 {
+
+}
+
+.got_headline {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  text-decoration: underline;
+}
+
+#got_section_content {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+
+.got_cards {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.got_title {
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.got_inner_card {
+  display: flex;
+  flex-direction: column;
+}
+
+.got_pic {
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  border: solid 3px gray;
+}
+
+.got_link {
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.got_link:hover {
+  text-decoration: underline;
+}
